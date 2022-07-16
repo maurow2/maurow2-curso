@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stiloclase4.css">
+    <title>Document</title>
+</head>
+<body>
+    <form method="" action="">
+       <br>
+        <p><label for="nombre">Nombre:</label> </p> 
+           <input class="celda" type="text" name="nombre" required maxlength="30" placeholder="Maximo 30 caracteres">
+        
+        <p><label for="nombre">Correo electronico:</label></p>
+           <input class="celda" type="email" name="correo" required pattern=".+@.+[.][cC][oO][mM]" title="direccion invalida" placeholder="usuario@dominio.com">
+        
+        <p><label for="nombre">Asunto:</label></p> 
+           <input class="celda" type="text" name="Asunto" required maxlength="20" placeholder="Maximo 30 caracteres">
+        
+        <p><label for="nombre">Mensaje:</label></p>
+           <textarea class="celda" cols="21" rows="3" required maxlength="50" name="mensaje" placeholder="Maximo 50 caracteres"></textarea>
+        <br>
+            <input class="boton" type="submit" value="Eviar Datos">
+        <br>
+    </form>
+</body>
+</html>

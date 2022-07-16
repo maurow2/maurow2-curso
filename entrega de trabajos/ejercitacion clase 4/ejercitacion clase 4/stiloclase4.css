@@ -1,0 +1,37 @@
+form{
+    border-color: chartreuse;
+    background-color: #a9f4db;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10%;
+    width: 290px;
+    height: 430px;
+    margin-left: 30%;
+    border-width: medium;
+    border-style: solid;
+    border-color: #000;
+}
+
+p{
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+
+.boton{
+    background-color: greenyellow;
+    width: 80%;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 8px;
+    margin-left: 7%;
+    margin-top: 5%;
+
+}
+
+.celda{
+    margin-left: 5%;
+    box-sizing: content-box;
+    width: 250px;
+    padding: 5px;
+}

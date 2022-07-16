@@ -1,0 +1,57 @@
+/*div {
+    width:400px; height:150px;
+    background-color:#ad6be3;
+    border: 4px dotted;
+    padding:40px;
+    margin:50px;
+    display: inline-table;
+    text-align:center;
+    
+    }
+div p {
+    display: table-cell;
+    vertical-align:middle;
+    font-family: impact;
+    font-size:32px;ccc
+    text-transform:uppercase;
+    color:#330757;
+}
+*/
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: blue;
+}
+header{
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    background-color: rgb(211, 132, 132);
+    height: 40px;
+    vertical-align: middle;
+}
+main,aside{
+    margin-left: 2%;
+    background-color: gray;
+    height: 150px;
+    text-align: center;
+}
+footer{
+    background-color: aquamarine;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+
+}
+.gris, .rojo, .verde {
+    position: absolute;
+    }
+    .gris {
+    z - index: 2;
+    }
+    .verde {
+    z-index: 3;
+    }
+    .azul
+    { z-index: 100; // Sin efecto, es un elemento
+    no-posicionado. }
